@@ -13,7 +13,7 @@ class House {
 
   void displayInfo() {
     print(
-      '[House] ID: $id | Address: $address | Rent: \$${rentPrice} | Rented: ${isRented ? "Yes" : "No"}',
+      '[House] ID: $id | Address: $address | Rent: ${rentPrice} | Rented: ${isRented ? "Yes" : "No"}',
     );
   }
 }
