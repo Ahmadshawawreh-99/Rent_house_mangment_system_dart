@@ -16,7 +16,9 @@ class Apartment {
   });
 
   void displayInfo() {
-    print('[Apartment] ID: $id | Address: $address | Rent: \$${rentPrice.toStringAsFixed(2)} | '
-          'Floor: $floorNumber | Furnished: ${isFurnished ? "Yes" : "No"} | Rented: ${isRented ? "Yes" : "No"}');
+    print(
+      '[Apartment] ID: $id | Address: $address | Rent: \$${rentPrice.toStringAsFixed(2)} | '
+      'Floor: $floorNumber | Furnished: ${isFurnished ? "Yes" : "No"} | Rented: ${isRented ? "Yes" : "No"}',
+    );
   }
 }
