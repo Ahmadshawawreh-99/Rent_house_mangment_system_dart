@@ -174,8 +174,8 @@ RentalManager manager = RentalManager();
 **Adding Houses:**
 
 ```dart
-manager.addHouse(House(id: 1, address: 'Amman, Gardens', rentPrice: 450.0));
-manager.addHouse(House(id: 2, address: 'Irbid, Al-Naseem', rentPrice: 350.0));
+manager.addHouse(House(id: 1, address: 'AMMAN, 7th circle', rentPrice: 450.0));
+manager.addHouse(House(id: 2, address: 'IRBID', rentPrice: 350.0));
 ```
 
 **Adding Apartments:**
@@ -183,7 +183,7 @@ manager.addHouse(House(id: 2, address: 'Irbid, Al-Naseem', rentPrice: 350.0));
 ```dart
 manager.addApartment(Apartment(
   id: 3,
-  address: 'Zarqa, Downtown',
+  address: 'ZARQA',
   rentPrice: 280.0,
   floorNumber: 2,
   isFurnished: true,
